@@ -1,0 +1,42 @@
+/* CSS Document */
+
+	*{margin:0px; padding:0px;}
+	body{ background-image: url(pattern.png);}
+	#wapper{width:960px; margin:0 auto; padding:5px; background:#EBFAFE;}
+	nav{width:100%; height:55px; background:#EDDEED;}
+	.top_menu{ color:black; font-weight:bold; font-size:18px;}
+	.top_menu>li{list-style:none;float:left;line-height:55px; position:relative;}
+	.top_menu>li:nth-child(4)>a{margin-right:100px; }
+	.top_menu>li:nth-child(5){overflow:hidden;}
+	.top_menu>li>a{padding-left:20px; padding-right:20px; text-decoration:none; }
+	.top_menu>li>a:hover{color:red;}
+	.top_menu span{font-size:18px; color:red;}
+	.top_menu input{font-size:18px;}
+	.top_menu button{border-radius:6px; background:#0099FF; color:white; font-size:16px; padding:3px; font-weight:bold;}
+	.top_menu>li:hover .sub_menu{display:block;}
+	.sub_menu{display:none; width:150px; background:#EDDEED; position:absolute; top:55px;}
+	.sub_menu li{list-style:none; height:45px; text-indent:20px;}
+	.sub_menu a{text-decoration:none;}
+	.sub_menu li:hover{background:white;}
+	.sub_menu>li:hover a{color:red;}
+	header{width:100%;}
+	header img{width:100%;}
+	#main{width:100%; height:480px; margin:2px auto; display:flex;}
+	section{background:linear-gradient(to right,#9DD7E1,white, #9DD7E1);width:70%;}
+	section #div1{float:left; width:49.5%;}
+	section #div2{float:right; width:49.5%;}	
+	section h1{text-align:center; color:#FF0000; font-size:30px; margin-top:20px;margin-bottom:20px;}
+	section p{ text-align:justify; padding:15px; font-size:18px; font-family:Arial, Helvetica, sans-serif;text-indent:30px;}
+	section form{width:90%; padding-left:5%;}
+	fieldset{font-size:25px; padding:10px; border-radius:10px; box-shadow:3px 5px 6px gray;}
+	section input{font-size:16px; padding:5px; margin-bottom:15px; border-radius:10px; box-shadow:3px 5px 6px gray;}
+	center input{margin:25px; font-size:20px; padding:5px; border-radius:10px; box-shadow:3px 5px 6px gray; font-weight:bold;}
+	aside{width:30%; background:white; text-align:center; padding-top:10px; border:5px solid #CCCCCC;}
+	aside img{width:96%; box-shadow:3px 5px 6px gray;}
+	aside img:hover{transform: rotate(10deg); transition-duration: 3s;}
+	aside h1{color:#FF0000; text-align:center; text-shadow:3px 4px 5px orange;}
+	hr{border:1px dotted #990000; margin:10px auto}
+	footer{width:100%; height:80px; margin-top:2px; background:#CCCC66; position:relative;}
+	footer p:first-child{color:black; font-size:20px; position:absolute; top:20px; left:30px;}
+	footer p:last-child{color:black; font-size:20px; position:absolute; top:20px; right:30px;}
+

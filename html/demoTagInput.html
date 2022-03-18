@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../"></script>
+    <script>
+        function kiemTra() {
+            // phương thức xử lí
+
+        }
+    </script>
+</head>
+
+<body>
+    <form action="dangky.html" method="post" style="width: 500px;">
+        <fieldset>
+            <legend>Thong tin form</legend>
+            <label for="lblHoTen">Họ tên: </label>
+            <input type="text" name="txtName" id="txtNam" onblur="return kiemTra();"> <br> <br>
+            <label for="lblDate">Ngày sinh: </label>
+            <input type="date" name="dateNgaySinh" id="dateNgaySinh" pattern="dd/MM/yyyy"> <br> <br>
+            <label for="lblDangHoc">Status:</label>
+            <input type="checkbox" name="chkDangHoc" id="chkDangHoc"> <label for="lblConHoc">Còn học</label>
+            <input type="checkbox" name="chkNghiHoc" id="chkNghiHoc"> <label for="lblNghiHoc">Nghỉ học</label>
+            <br> <br>
+            <input type="radio" name="radNam" id="radNam">
+            <label for="radNam">Nam</label>
+            <input type="radio" name="radNu" id="radNu">
+            <label for="radNu">Nữ</label>
+            <br> <br>
+            <label for="lblEmail ">Email:</label>
+            <input type="email " name="txtEmail " id="txtEmail "><br> <br>
+            <input type="password " name=" " id=" "><br> <br>
+        </fieldset>
+    </form>
+</body>
+
+</html>

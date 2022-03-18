@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	.block{ background-color: rgb(255, 0,0);}
+</style>
+</head>
+<body>
+<div class="block">
+	<div class="box">
+	</div>
+</div>
+</body>
+</html>

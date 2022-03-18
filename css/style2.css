@@ -1,0 +1,44 @@
+/* CSS Document */
+
+	*{margin:0px; padding:0px;}
+	body{ background-image: url(../img/pattern.png);}
+	#wapper{width:960px; margin:0 auto; padding:5px; background:#EBFAFE;}
+	nav{width:100%; height:55px; background:#EDDEED;}
+	.menu{ color:black; font-weight:bold; font-size:18px;}
+	.menu>li{width: 150px;list-style:none; float: left; line-height:55px; text-align: center; position:relative;}
+	/*.menu>li:nth-child(4)>a{margin-right:100px; }
+	.menu>li:nth-child(5){overflow:hidden;}*/
+	.menu li a{text-decoration:none;}
+	.menu li a:hover{color:red;}
+	nav span{font-size:18px; font-weight: bold; color:red; float: right; padding: 15px;}
+	nav span input{font-size:14px;}
+	nav span button{nav span button{border-radius:50%; background:#0099FF; color:white; font-size:14px; padding:3px; font-weight: normal;}}
+	.sub_menu{display:none; width:150px; background:#EDDEED; position:absolute; top:55px;}
+	.sub_menu li{list-style:none; line-height: 55px; text-indent:15px; text-align: left;}
+	.sub_menu a{text-decoration:none;}
+	.menu li:hover{ background-color: rgb(89,89,89); }
+	.menu>li:hover >.sub_menu{display:block;}
+	.menu li .sub_menu li .sub_menu{ left:150px; display:none; }
+	.menu li .sub_menu li:hover .sub_menu{display: block;}
+	.sub_menu li:hover{background: yellow;}
+	.sub_menu li:hover a{color: rgb(89,89,89);}
+	header{width:100%;}
+	header img{width:100%;}
+	#main{width:100%; height:480px; margin:2px auto; display:flex;}
+	section{background:linear-gradient(to right,#9DD7E1,white, #9DD7E1);width:70%;}
+	section #div1{float:left; width:49.5%;}
+	section #div2{float:right; width:49.5%;}	
+	section h1{text-align:center; color:#FF0000; font-size:30px; margin-top:20px;margin-bottom:20px;}
+	section p{ text-align:justify; padding:15px; font-size:18px; font-family:Arial, Helvetica, sans-serif;text-indent:30px;}
+	section form{width:90%; padding-left:5%;}
+	fieldset{font-size:25px; padding:10px; border-radius:10px; box-shadow:3px 5px 6px gray;}
+	section input{font-size:16px; padding:5px; margin-bottom:15px; border-radius:10px; box-shadow:3px 5px 6px gray;}
+	aside{width:30%; background:white; text-align:center; padding-top:10px; border:5px solid #CCCCCC;}
+	aside img{width:96%; box-shadow:3px 5px 6px gray;}
+	aside img:hover{transform: rotate(10deg); transition-duration: 3s;}
+	aside h1{color:#FF0000; text-align:center; text-shadow:3px 4px 5px orange;}
+	hr{border:1px dotted #990000; margin:10px auto}
+	footer{width:100%; height:80px; margin-top:2px; background:#CCCC66; position:relative;}
+	footer p:first-child{color:black; font-size:20px; position:absolute; top:20px; left:30px;}
+	footer p:last-child{color:black; font-size:20px; position:absolute; top:20px; right:30px;}
+
